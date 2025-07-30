@@ -1,6 +1,7 @@
 {
   "name": "my-project",
   "version": "1.0.0",
+  "homepage": "https://github.com/egor-goloshchapov/hw-httr",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npx parcel src/index.html",
@@ -12,6 +13,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "parcel": "^2.15.4"
   },
   "dependencies": {
@@ -53,6 +55,7 @@
     "node-releases": "^2.0.19",
     "nullthrows": "^1.1.1",
     "ordered-binary": "^1.6.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
     "picocolors": "^1.1.1",
     "picomatch": "^2.3.1",
     "postcss-value-parser": "^4.2.0",

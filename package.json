@@ -1,0 +1,15 @@
+{
+  "name": "hw-httr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build src/index.html --no-cache",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

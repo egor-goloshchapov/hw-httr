@@ -62,3 +62,7 @@ function renderCountryCard(country) {
   infoContainer.innerHTML = markup;
 }
 
+
+console.log("HTTR is running.");
+
+
